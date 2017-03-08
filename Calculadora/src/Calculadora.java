@@ -59,6 +59,7 @@ public class Calculadora {
 	 * Este metodo realiza una resta y lo muestra por pantalla.
 	 */
 	public void resta(){
+		System.out.println("Esta es la resta:");
 		System.out.println(this.getX() - this.getY());
 	}
 }
